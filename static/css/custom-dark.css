@@ -1,0 +1,100 @@
+/*
+           ▒ ▒ ▒
+            ░▒░
+            ███
+          ▄██░██▄
+       ▄███▒░▒░▒███▄  ███▄▄▄▄   ███   ▄██████▄  ███▄▄▄▄
+      ███░▒░▒░▒░▒░███ ███▀▀▀██▄ ███  ███    ███ ███▀▀▀██▄
+      ██░▒░▒░▒░▒░▒░██ ███   ███ ███▌ ███    ███ ███   ███       Version 1.0
+      ██░▒░▒░▒░▒░▒░██ ███   ███ ███▌ ███    ███ ███   ███        2020-05-22
+      ███░▒░▒░▒░▒░███ ███   ███ ███  ███    ███ ███   ███
+       ▀███▒░▒░▒███▀  ███   ███ ███  ███    ███ ███   ███
+         ▀██████▀      ▀█   █▀  █▀    ▀██████▀   ▀█   █▀
+            /|\
+                 ▄█   ▄█▄ ███▄▄▄▄▄   ███  ▄██████▄    ▄█     █▄      ███
+                 ███ ▄███▀ ███▀▀▀██▄ ███  ███   ▀███  ███    ███ ▀█████████▄
+                 ███▐██▀   ███   ███ ███▌ ███    █▀   ███    ███    ▀███▀▀██
+                ▄█████▀    ███   ███ ███▌ ███        ▄███▄▄▄▄███     ███   ▀
+               ▀▀█████▄    ███   ███ ███▌ ███ ████▄ ▀▀███▀▀▀▀███     ███
+                 ███▐██▄   ███   ███ ███  ███    ███  ███    ███     ███
+                 ███ ▀███▄ ███   ███ ███  ███    ███  ███    ███     ███
+                 ███   ▀█▀  ▀█   █▀  █▀   ▀███████▀   ███    █▀     ▄████▀
+                 ▀
+                   A sensuous night-time theme derived from the daytime
+                   theme "Onion Blush" and the colour "Orange Samson".
+
+                         Background:  #130303  "Xiketic"
+                         Text:        #f9e0d9  "Misty Rose"
+                         Links:       #ff7b00  "Orange Samson"
+                         Hover:       #ffa69e  "Vivid Tangerine"
+                         Highlight:   #9a8f97  "Taupe Gray"
+                         Subheds:     #d64045  "English Vermillion"
+*/
+
+@media (prefers-color-scheme: dark)
+{
+        body, html {
+                background: #130303;
+                color: #f9e0d9;
+            }
+        a {
+                color: #130303;
+                background: #ff7b00;
+            }
+        a:hover {
+                color: #130303;
+                background: #ffa69e;
+            }
+        h1, h2, h3, h4 {
+                color: #d64045;
+            }
+        input {
+                border: 1px solid #d64045;
+            }
+        .datetime {
+                color: #d64045;
+                border-right: 1px solid #d64045;
+            }
+        .datetime a {
+                color: #130303;
+            }
+        .short_quote {
+                color: #d64045;
+            }
+        .medium_quote {
+                color: #d64045;
+            }
+        .long_quote {
+                color: #d64045;
+            }
+        a .notes {
+                text-decoration: none !important;
+                background: none;
+                color: #d64045;
+            }
+        .notes a {
+                text-decoration: none !important;
+                background: none;
+                color: #d64045;
+            }
+        img .notes {
+                border: 1px solid #d64045;
+            }
+        .notes img {
+                border: 1px solid #d64045;
+            }
+
+/* Styling some standard HTML tags in Dark Mode.                   */
+        abbr {
+                border-bottom: 1px dotted #d64045;
+            }
+
+        del {
+                color: #d64045;
+                text-decoration: none;               /* Remove underlining. */
+            }
+
+        ins {
+                color: #d64045;                    
+            }
+}
