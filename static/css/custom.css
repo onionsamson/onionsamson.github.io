@@ -69,10 +69,15 @@ a:hover {
     color: #130303;
     background: #d64045;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, {
     color: #ffa69e;
     font-weight: normal;
     margin-bottom: 0px;
+    font-family: 'Merriweather',
+    "Georgia",
+    "Times New Roman",
+    "Times",
+     serif;
 }
 img {
     text-decoration: none !important;
