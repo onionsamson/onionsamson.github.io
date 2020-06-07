@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Onion Samson"
 theme = "ezhil"
 
-copyright = "© Copyright notice"
+copyright = "© Onion Samson 2011-2020"
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
@@ -23,7 +23,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+    subtitle = "Words. Games. Opinion. Heart."
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
