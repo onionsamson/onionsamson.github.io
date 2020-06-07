@@ -1,7 +1,8 @@
-baseURL = "https://onionsamson.com/"
+baseURL = "https://onionsamson.github.io/"
 languageCode = "en-us"
 title = "Onion Samson"
 theme = "ezhil"
+publishDir = ".."
 
 copyright = "© Onion Samson 2011-2020"
 
